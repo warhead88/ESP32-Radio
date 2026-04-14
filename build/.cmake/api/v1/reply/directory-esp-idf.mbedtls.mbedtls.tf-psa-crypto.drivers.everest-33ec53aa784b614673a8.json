@@ -1,0 +1,48 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/tf-psa-crypto/private/everest",
+			"paths" : 
+			[
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest/include/tf-psa-crypto/private/everest"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "esp-idf/mbedtls/mbedtls/tf-psa-crypto/drivers/everest",
+		"source" : "/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/drivers/everest"
+	}
+}

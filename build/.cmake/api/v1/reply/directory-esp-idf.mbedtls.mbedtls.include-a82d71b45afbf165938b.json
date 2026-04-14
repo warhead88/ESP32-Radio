@@ -1,0 +1,82 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/mbedtls",
+			"paths" : 
+			[
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/build_info.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/debug.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/mbedtls_config.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/oid.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pkcs7.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cache.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_cookie.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ticket.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/timing.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/version.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_csr.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/mbedtls/private",
+			"paths" : 
+			[
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_ssl.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/include/mbedtls/private/config_adjust_x509.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "esp-idf/mbedtls/mbedtls/include",
+		"source" : "/home/w88/code/esp-idf/components/mbedtls/mbedtls/include"
+	}
+}

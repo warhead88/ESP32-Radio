@@ -1,0 +1,119 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/psa",
+			"paths" : 
+			[
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_auto_enabled.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_dependencies.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_derived.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_key_pair_types.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_adjust_config_synonyms.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_composites.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_key_derivation.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_builtin_primitives.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_compat.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_config.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_common.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_composites.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_key_derivation.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_contexts_primitives.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_driver_random.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_extra.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_platform.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_sizes.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_struct.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_types.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/psa/crypto_values.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/tf-psa-crypto",
+			"paths" : 
+			[
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/build_info.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/tf-psa-crypto/version.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/mbedtls",
+			"paths" : 
+			[
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/../drivers/builtin/include/mbedtls/config_adjust_legacy_crypto.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/../drivers/builtin/include/mbedtls/private_access.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/asn1.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/asn1write.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/base64.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/compat-3-crypto.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/constant_time.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/lms.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/md.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/memory_buffer_alloc.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/nist_kw.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/pem.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/pk.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/platform.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/platform_time.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/platform_util.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/psa_util.h",
+				"/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include/mbedtls/threading.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "esp-idf/mbedtls/mbedtls/tf-psa-crypto/include",
+		"source" : "/home/w88/code/esp-idf/components/mbedtls/mbedtls/tf-psa-crypto/include"
+	}
+}

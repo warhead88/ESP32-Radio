@@ -1,0 +1,3 @@
+dependencies:
+  nixy4/u8g2: '*'
+  espressif/cjson: '*'

@@ -1,0 +1,2 @@
+source /home/w88/code/Radio/build/bootloader/gdbinit/symbols
+source /home/w88/code/Radio/build/bootloader/gdbinit/connect
