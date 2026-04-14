@@ -23,6 +23,10 @@ A feature-rich, dual-core ESP32-based FM Radio player with an interactive OLED d
 - **KY-040** Rotary Encoder
 - **Battery System** (Using a standard 1:2 Voltage Divider on GPIO35)
 
+## 🔌 Schematic
+
+![Project Schematic](schematic.png)
+
 ## 🚀 Building & Flashing
 
 This project uses the standard ESP-IDF v6.x framework.
